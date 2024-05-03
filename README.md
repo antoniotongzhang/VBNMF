@@ -4,12 +4,13 @@ This repository contains the implementation of Variational Bayesian Non-negative
 
 ## Dependencies
 - Python
-- NumPy
-- PyTorch
-- scikit-learn
+- Scikit-learn (used to input the Breast Cancer Wisconsin dataset and apply standard scaler for data standardization)
+- NumPy (used to find minimum values for scaled features and apply the second norm)
+- PyTorch (used to create tensors of matrices and perform matrix multiplication)
+
 
 ## Description
-This is a course final project for COSC 5P77. The code contains a novel implementation of VBNMF in Python and PyTorch, along with an evaluation on the Breast Cancer dataset.
+This is a course final project for COSC 5P77. The code contains a novel implementation of VBNMF in Python and PyTorch, along with an evaluation on breast cancer wisconsin dataset.
 
 ## Parameters
 - `V`: Input data matrix.
